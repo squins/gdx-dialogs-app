@@ -36,6 +36,11 @@ android {
         targetSdkVersion 23
         multiDexEnabled false
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 
